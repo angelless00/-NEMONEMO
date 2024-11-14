@@ -1,0 +1,16 @@
+# YOLOv8 Configuration
+path: C:\Users\Administrator\Desktop\NEMO\proto_data
+train: images/train
+val: images/val
+
+nc: 7 # 클래스 수
+# names: ["person_o", "person_x", "forklift_w","forklift_a","forklift_s","forklift_d","trolly"]
+
+names:
+    0: "person_o"
+    1: "person_x"
+    2: "forklift_w"
+    3: "forklift_a"
+    4: "forklift_s"
+    5: "forklift_d"
+    6: "trolly"
